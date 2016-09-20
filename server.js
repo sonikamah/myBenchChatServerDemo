@@ -2,6 +2,7 @@ var io = require('socket.io')(8080);
 var http = require('http');
 var path = require('path');
 var fs = require('fs'); // file system
+var mime  = require('mime');
  
 
 var filepath  = "";
